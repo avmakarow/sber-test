@@ -1,0 +1,64 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 23,
+        "passed" : 21,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 1
+      },
+      "time" : {
+        "start" : 1464428110142,
+        "stop" : 1464428110609,
+        "duration" : 467
+      }
+    },
+    "defects" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "146ed2b6a2ec55b7",
+        "message" : "ComparisonFailure: expected:<[2]0> but was:<[/]0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "4ff7dd99f916ed97",
+        "message" : "NumberFormatException: For input string: \"/0\"",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "86a5480b3f17da65",
+        "title" : "Operations test",
+        "statistic" : {
+          "total" : 23,
+          "passed" : 21,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 1
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 23,
+          "passed" : 21,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 1
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "25e7f26e9efeed02",
+  "name" : "test[6]",
+  "title" : "Test [6]",
+  "time" : {
+    "start" : 1464428110387,
+    "stop" : 1464428110391,
+    "duration" : 4
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "86a5480b3f17da65",
+    "name" : "com.github.makarov.OperationsTest",
+    "title" : "Operations test"
+  },
+  "steps" : [ {
+    "name" : "addTest[-4, -3, -7]",
+    "title" : "Add test [-4, -3, -7]",
+    "time" : {
+      "start" : 1464428110387,
+      "stop" : 1464428110388,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Arsenal-PC"
+  }, {
+    "name" : "thread",
+    "value" : "6916@Arsenal-PC.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.github.makarov.OperationsTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.github.makarov.OperationsTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 2.015 sec <<< FAILURE! - in com.github.makarov.OperationsTest
+test[20](com.github.makarov.OperationsTest)  Time elapsed: 0.076 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[2]0> but was:<[/]0>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.github.makarov.steps.AllureSteps.divisionTest(AllureSteps.java:57)
+	at com.github.makarov.OperationsTest.test(OperationsTest.java:55)
+
+test[22](com.github.makarov.OperationsTest)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NumberFormatException: For input string: "/0"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.github.makarov.steps.AllureSteps.divisionTest(AllureSteps.java:49)
+	at com.github.makarov.OperationsTest.test(OperationsTest.java:55)
+
