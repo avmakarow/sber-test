@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="maven-plugins:maven-findbugs-plugin:1.4" type="repository">
+    <properties maven-id="maven-plugins:maven-findbugs-plugin:1.4" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/maven-findbugs-plugin-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bcel-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/coreplugin-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/findbugs-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dom4j-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-analysis-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-tree-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-commons-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-util-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-xml-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/findbugs-ant-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xml-apis-1.0.b2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxen-1.0-FCS.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/saxpath-1.0-FCS.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/msv-20020414.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/relaxngDatatype-20020414.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/isorelax-20020414.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
